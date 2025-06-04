@@ -61,5 +61,12 @@ img{
     font-size: 35px;
     background-color: transparent;
     border: none;
+    transition: 0.3s ease;
+    border-radius: 12px;
+}
+
+.addBook:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
 }
 
