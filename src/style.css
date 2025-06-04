@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+}
+
+.dashboard{
+    padding-left:  10vw;
+    padding-right: 10vw;
+    height: 15vh;
+    font-size: 50px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCEDF1;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.flex1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.flex2{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.myLib{
+    padding: 5px;
+}
+
+.liblogo{
+    padding-top: 20px;
+}
+
+img{
+    max-height: 100%;
+    width: auto;
+}
+
+
+
+/* down section now */
+
+.container{
+    background-color: #bfd5e2;
+    height: 90vh;
+    width: 100vw;
+}
+
+.flex3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBook{
+    padding: 15px;
+    margin-top: 5vh;
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+}
+
