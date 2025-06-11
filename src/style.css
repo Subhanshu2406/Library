@@ -70,3 +70,78 @@ img{
     border-radius: 12px;
 }
 
+.dialogBox{
+  padding: 2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  width: 300px;
+  text-align: center;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+form > button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s ease;
+    border-radius: 12px;
+}
+
+form > button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.mainContainer{
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    border: 2px dashed red;
+    min-height: 100px;
+}
+
+.book{
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  flex: 1 1 calc(33% - 20px);
+  min-width: 250px;
+}
